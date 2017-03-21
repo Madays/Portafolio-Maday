@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../img/maday.png);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  body div.hero-container {
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 80%;
+    outline: solid 5px #FFCD0D; }
+    body div.hero-container header h2#developer {
+      background-color: #FFCD0D;
+      font-size: 32px;
+      display: inline-block;
+      padding: 15px 2px 2px 100px;
+      color: #fff; }
+    body div.hero-container header h2 span#icon-menu {
+      float: right;
+      color: #FFCD0D;
+      font-size: 32px;
+      cursor: pointer; }
+    body div.hero-container header ul#btn-menu {
+      list-style: none; }
+      body div.hero-container header ul#btn-menu li a {
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+        transition: all 0.2s;
+        color: #fff;
+        background-color: #FFCD0D; }
+        body div.hero-container header ul#btn-menu li a:hover, body div.hero-container header ul#btn-menu li a:focus {
+          display: block;
+          text-decoration: none;
+          color: #FFCD0D;
+          background-color: transparent;
+          border-radius: 6px; }
+
+/*# sourceMappingURL=main.css.map */

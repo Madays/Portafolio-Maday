@@ -1,0 +1,36 @@
+@import "_variables";
+header{            
+    h2#developer{
+        background-color: $main-color;
+        font-size: $standar-size*2;
+        display: inline-block;
+        padding: 15px 2px 2px 100px;
+        color: #fff;
+            }
+    h2 span#icon-menu{
+        float: right;    
+        color: $main-color;
+        font-size: $standar-size*2;
+        cursor: pointer;
+    }
+    ul#btn-menu{
+        list-style: none; 
+        li a{
+            text-decoration: none;
+            display: block;
+            padding: 10px 20px;    
+            transition: all 0.2s;
+            color: #fff;
+            background-color: $main-color;
+            &:hover, &:focus {
+                display: block;
+                text-decoration: none;
+                color: $main-color;
+                background-color: transparent;
+                border-radius: 6px;
+            }
+            
+        }
+        
+    }
+}
