@@ -9,12 +9,13 @@ body {
     background-size:cover;
     background-position: top center;
     background-repeat: no-repeat;    
-    background-attachment: fixed;     
+    background-attachment: fixed; 
+    height: 100vh;
     section.hero{
 
     }
     div.hero-container{
-        position: absolute;
+        position: absolute;        
         top: 10%;
         bottom:10%;
         left: 10%;
