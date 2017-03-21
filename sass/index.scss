@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 @import "_variables";
-body {
-    
+body{
     section.hero{
         background-image: url(../img/maday.png);
         background-size:cover;
@@ -13,31 +12,26 @@ body {
         background-repeat: no-repeat;    
         background-attachment: fixed; 
         height: 100vh;
-    }
-    div.hero-container{
-        position: absolute;        
-        top: 5%;
-        bottom:5%;
-        left: 5%;
-        right: 5%;
-        width: 90%;
-        height: 90%;
-        outline: solid 4px $main-color;              
-        @import "_header";
-        
-        p{
-            position: absolute;
-            bottom: 0;
-            color: #fff;
-            font-size: $standar-size*2;
-            padding: 15px 100px 5px 5px;
-            right: -100px;
-            background: $main-color;
+        div.hero-container{
+            position: absolute;        
+            top: 5%;
+            bottom:5%;
+            left: 5%;
+            right: 5%;
+            width: 90%;
+            height: 90%;
+            outline: solid 4px $main-color;              
+            @import "_header";
+
+            p{
+                position: absolute;
+                bottom: 10px;
+                color: #fff;
+                background: $main-color;
+            }
         }
     }
-    
 }
-
 
 
  

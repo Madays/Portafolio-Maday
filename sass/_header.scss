@@ -4,12 +4,9 @@ header{
     position: relative;
     h2#developer{
         background-color: $main-color;
-        font-size: $standar-size*2;
-        display: inline-block;
-        padding: 15px 5px 5px 100px;
+        display: inline-block;        
         color: #fff;
-        position: absolute;
-        left: -100px;
+        position: absolute;        
     }
     h2 span#icon-menu{
         float: right;    
@@ -26,15 +23,32 @@ header{
             transition: all 0.2s;
             color: #fff;
             background-color: $main-color;
-            &:hover, &:focus {
+            border-radius: 10px;
+            &:hover, &:focus, &:active {
                 display: block;
                 text-decoration: none;
                 color: $main-color;
-                background-color: transparent;
-                border-radius: 6px;
+                background-color: transparent;                
             }
             
         }
         
     }
+}
+
+/*------------CELULARES-----*/
+@media screen and (max-width:767px){
+    h2#developer{
+        font-size: $standar-size;    
+        padding: 15px 5px 5px 100px;
+        left: -100px;
+    }  
+}
+/*------------TABLET-----*/
+@media screen and (min-width:768px) and (max-width:991px){
+   
+}
+/*------------DESKTOP-----*/
+@media screen and (min-width:992px) and (max-width:1199px){
+  
 }

@@ -1,19 +1,55 @@
-@media screen and (max-width:768px){
-    .mobile-menu{
-        background: rgba(168, 160, 165,.6);
-    }
-    #main-navigation a{
+/*------------CELULARES-----*/
+@media screen and (max-width: 767px) {
+  p {
+    font-size: 16px;
+    padding: 15px 100px 5px 5px;
+    right: -100px; } }
+/*------------TABLET-----*/
+/*------------DESKTOP-----*/
+/*------------DESKTOP LARGE-----*/
+@media screen and (min-width: 1200px) {
+  body div.hero-container {
+    /*------------CELULARES-----*/
+    /*------------TABLET-----*/
+    /*------------DESKTOP-----*/ }
+    body div.hero-container header {
+      padding: 0 10px;
+      position: relative; }
+      body div.hero-container header h2#developer {
+        background-color: #FFCD0D;
+        display: inline-block;
         color: #fff;
-        /*background: rgba(168, 160, 165,.6);*/
-    }   
-    #main-navigation ul{
-        color: #fff;        
-    }
-}
-@media screen and (min-width:769px){
-    #frase-uno{
-        font-size: 60px;}
-    .box-banner{
-        padding: 100px 0;        
-    }    
-}
+        position: absolute; }
+      body div.hero-container header h2 span#icon-menu {
+        float: right;
+        color: #FFCD0D;
+        font-size: 32px;
+        cursor: pointer; }
+      body div.hero-container header ul#btn-menu {
+        list-style: none; }
+        body div.hero-container header ul#btn-menu li a {
+          text-decoration: none;
+          display: block;
+          padding: 10px 20px;
+          transition: all 0.2s;
+          color: #fff;
+          background-color: #FFCD0D;
+          border-radius: 10px; }
+          body div.hero-container header ul#btn-menu li a:hover, body div.hero-container header ul#btn-menu li a:focus, body div.hero-container header ul#btn-menu li a:active {
+            display: block;
+            text-decoration: none;
+            color: #FFCD0D;
+            background-color: transparent; } }
+  @media screen and (min-width: 1200px) and (max-width: 767px) {
+    body div.hero-container h2#developer {
+      font-size: 16px;
+      padding: 15px 5px 5px 100px;
+      left: -100px; } }
+@media screen and (min-width: 1200px) {
+    body div.hero-container p {
+      bottom: 0;
+      font-size: 16px;
+      padding: 15px 100px 5px 5px;
+      right: -100px; } }
+
+/*# sourceMappingURL=queries.css.map */
