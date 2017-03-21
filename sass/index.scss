@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+$main-color:#FFCD0D;
+body {
+    background-image: url(../img/maday.png);
+    background-size:cover;
+    background-position: top center;
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    height: 100vh;
+    outline: solid 1px purple;
+}
+.hero-container{
+    /*margin: 50px 0;*/
+    border: solid 4px #FFCD0D;
+    height: 100vh;
+}
+
+section.hero #developer{
+    background-color: #FFCD0D;
+    display: inline-block;
+    padding: 15px 2px 2px 100px;
+    color: #fff;
+}
+header span{
+    float: right;    
+    color: #FFCD0D;
+    font-size: 30px;
+    cursor: pointer;
+}
+header ul{
+    list-style: none;    
+}
+
+ul#btn-menu li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;    
+    transition: all 0.2s;
+    color: #fff;
+    background-color: #FFCD0D;
+}
+
+ul#btn-menu li a:hover, ul#btn-menu li a:focus {
+    display: block;
+    text-decoration: none;
+    color: #FFCD0D;
+    background-color: transparent;
+    border-radius: 6px;
+}
