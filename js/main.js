@@ -1,3 +1,3 @@
 $("header span").click(function(){
-	$('#btn-menu').slideToggle("slow");
+	$('#menu').slideToggle("slow");
 });

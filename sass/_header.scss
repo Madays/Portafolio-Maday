@@ -14,8 +14,9 @@ header{
         font-size: $standar-size*2;
         cursor: pointer;
     }
-    ul#btn-menu{
+    ul#menu{
         list-style: none; 
+        z-index: 100;
         li a{
             text-decoration: none;
             display: block;
