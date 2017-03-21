@@ -24,7 +24,18 @@ body {
         height: 90%;
         outline: solid 4px $main-color;              
         @import "_header";
+        
+        p{
+            position: absolute;
+            bottom: 0;
+            color: #fff;
+            font-size: $standar-size*2;
+            padding: 15px 100px 5px 5px;
+            right: -100px;
+            background: $main-color;
+        }
     }
+    
 }
 
 
