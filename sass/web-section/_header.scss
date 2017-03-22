@@ -16,7 +16,7 @@ header{
         cursor: pointer;
     }
     ul#menu{
-        list-style: none; 
+        list-style: none;
         z-index: 100;
         li a{
             text-decoration: none;
@@ -29,7 +29,8 @@ header{
                 display: block;
                 text-decoration: none;
                 color: $main-color;
-                background-color: transparent;                
+                background-color: transparent;  
+                border: solid 1px #fff;
             }
             
         }
@@ -38,12 +39,11 @@ header{
 }
 
 /*------------CELULARES-----*/
-@media screen and (max-width:600px){
+@media screen  and (max-width:600px){
     h2#developer{
         font-size: $standar-size;
     }
     ul#menu{        
-        margin-top: 150%;
         li a{
             border: solid 1px $main-color; 
             padding: 0 30px;
@@ -87,7 +87,7 @@ header{
 }
 @media screen and (min-width:1200px){
     h2#developer{
-        font-size: $standar-size*4;    
+        font-size: $standar-size*3;    
         padding: 15px 5px 5px 100px;        
         left: -100px;
     }  
