@@ -1,4 +1,3 @@
-@import "_variables";
 header{            
     padding: 0 10px;
     position: relative;
@@ -6,7 +5,9 @@ header{
         background-color: $main-color;
         display: inline-block;        
         color: #fff;
-        position: absolute;        
+        position: absolute; 
+        padding: 15px 5px 5px 50px; 
+        left: -5%;
     }
     h2 span#icon-menu{
         float: right;    
@@ -37,39 +38,65 @@ header{
 }
 
 /*------------CELULARES-----*/
-@media screen and (max-width:360px){
+@media screen and (max-width:600px){
+    h2#developer{
+        font-size: $standar-size;
+    }
     ul#menu{        
         margin-top: 150%;
         li a{
-            border: solid 1px $main-color;            
+            border: solid 1px $main-color; 
+            padding: 0 30px;
         }        
     }    
 }
-@media screen and (min-width:361px) and (max-width:767px){
+@media screen and (min-width:601px) and (max-width:767px){
     h2#developer{
-        font-size: $standar-size;    
-        padding: 15px 5px 5px 100px;        
-        left: -100px;
+        font-size: $standar-size;                   
     }   
     ul#menu{  
         padding-left: 50px;
         li{
             a{
                 border: solid 1px $main-color; 
-                display: inline;
+                display: block;
             }
         }        
     }
 }
 /*------------TABLET-----*/
 @media screen and (min-width:768px) and (max-width:991px){
+    ul#menu{  
+        padding-left: 50px;
+        li{
+            a{
+                border: solid 1px $main-color; 
+            }
+        }        
+    }
    
 }
 /*------------DESKTOP-----*/
 @media screen and (min-width:992px) and (max-width:1199px){
     ul#menu{
         li a{
-            background-color: $main-color;             
+            background-color: transparent; 
+            border: solid 1px $main-color;
         }        
     }  
+}
+@media screen and (min-width:1200px){
+    h2#developer{
+        font-size: $standar-size*4;    
+        padding: 15px 5px 5px 100px;        
+        left: -100px;
+    }  
+    ul#menu{  
+        padding-left: 50px;
+        li{
+            a{
+                border: solid 1px $main-color; 
+            }
+        }        
+    }
 }
